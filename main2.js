@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '昔々あるところにおじいさんとおばあさんがいました。:insertx:はある日、川で:inserty:を拾いました。名前をボブと名付けました。:insertz:美しく育ちました。:insertx:幸せに暮らしました。';
-let insertX = ['おじいさん','おばあさん','おじいさんの隣人'];
-let insertY = ['桃','犬','猫'];
-let insertZ = ['楽しく','明るく','ポジティブに'];
+let storyText = '外の気温は４０度でとても暑かったです。:insertx:はその日、海で:inserty:を拾いました。名前をボブと名付けました。ボブはとても:insertz:でした。:insertx:とボブは幸せに暮らしました。';
+let insertX = ['おじいさん','おばあさん','おじいさんとおばあさん'];
+let insertY = ['クラゲ','サメ','クジラ'];
+let insertZ = ['活発','好奇心旺盛','ポジティブ'];
 
 randomize.addEventListener('click', result);
 
