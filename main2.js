@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '昔々あるところにおじいさんとおばあさんがいました。:insertx:はある日、津田梅子さんのお墓の前で、:inserty:を拾いました。名前をボブと名付けました。:insertz:美しく育ちました。:insertx:幸せに暮らしました。';
-let insertX = ['おじいさん','おばあさん','おじいさんの友人'];
-let insertY = ['かわいい赤子','可愛らしい子犬','可愛らしい子猫'];
-let insertZ = ['美しく','たくましく','個性的に'];
+let storyText = '昔々あるところにおじいさんとおばあさんがいました。:insertx:はある日、川で:inserty:を拾いました。名前をボブと名付けました。:insertz:美しく育ちました。:insertx:幸せに暮らしました。';
+let insertX = ['おじいさん','おばあさん','おじいさんの隣人'];
+let insertY = ['桃','犬','猫'];
+let insertZ = ['楽しく','明るく','ポジティブに'];
 
 randomize.addEventListener('click', result);
 
@@ -28,7 +28,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob',name);
+    newStory = newStory.replace('ボブ',name);
   }
 
   if(document.getElementById("jp").checked) {
